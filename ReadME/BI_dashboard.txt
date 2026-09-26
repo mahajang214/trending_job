@@ -1,0 +1,92 @@
+
+
+
+
+
+BI DASHBOARD
+1. Executive Dashboard
+┌───────────────────────────────────────────────┐
+│             JOB MARKET MONITOR                │
+├────────────┬────────────┬─────────────────────┤
+│ Active Jobs│ New Today │ Companies Hiring     │
+│   28,492   │   2,184    │       1,247         │
+├────────────┴────────────┴─────────────────────┤
+│                                               │
+│          Jobs Created Over Time              │
+│                 📈                            │
+│                                               │
+├───────────────────────┬───────────────────────┤
+│ Top Skills            │ Top Locations         │
+│ SQL       78%         │ Bangalore             │
+│ Python    64%         │ Hyderabad             │
+│ Excel     43%         │ Pune                  │
+│ Power BI  45%         │ Delhi NCR             │
+└───────────────────────┴───────────────────────┘
+
+2. Skill Demand
+Filters:
+
+Country
+City
+Experience
+Job title
+Company
+Date
+
+Charts:
+
+SQL
+Python
+Power BI
+Excel
+Tableau
+AWS
+Azure
+PostgreSQL
+
+30-day skill trend
+
+SQL       ↗
+Python    ↗
+Power BI  →
+Tableau   ↘
+Excel     →
+
+
+3. Job Demand by Experience
+0–1 years       ███████████████
+1–3 years       ███████████████████████
+3–5 years       ███████████████
+5–8 years       ███████
+8+ years        ██
+
+
+4. Company Hiring Dashboard.
+Company       Active Jobs     New This Week
+Amazon           1,420            320
+Microsoft          840            180
+Accenture        2,840            520
+Deloitte         1,920            410
+
+5. Job Search Dashboard
+Position:
+[ Data Analyst ]
+
+Location:
+[ India ]
+
+Experience:
+[ 0–2 years ]
+
+Skills:
+[ SQL ] [ Python ] [ Power BI ]
+
+                    SEARCH
+
+
+Job                         Company       Match
+────────────────────────────────────────────────
+Data Analyst                XYZ           92%
+Business Data Analyst       ABC           87%
+Junior Data Analyst         DEF           84%
+BI Analyst                  GHI           81%

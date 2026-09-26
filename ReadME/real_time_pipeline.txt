@@ -1,0 +1,34 @@
+REAL TIME PIPELINE
+               Scheduler
+                   │
+             every 15 min
+                   │
+                   ▼
+        ┌───────────────────┐
+        │ Source Crawlers   │
+        └─────────┬─────────┘
+                  │
+                  ▼
+           Raw Job Queue
+                  │
+                  ▼
+        ┌───────────────────┐
+        │ Cleaning Engine   │
+        └─────────┬─────────┘
+                  │
+                  ▼
+        ┌───────────────────┐
+        │ Deduplication     │
+        └─────────┬─────────┘
+                  │
+                  ▼
+             PostgreSQL
+                  │
+       ┌──────────┼──────────┐
+       ▼          ▼          ▼
+    Skills      Salary     Locations
+    Trends      Trends      Trends
+       │          │          │
+       └──────────┼──────────┘
+                  ▼
+               Power BI

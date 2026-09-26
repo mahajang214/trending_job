@@ -1,0 +1,36 @@
+STACK
+Data collection
+
+Python
+Requests
+BeautifulSoup
+Playwright/Selenium where permitted
+APIs/RSS/feeds where available
+
+Data processing
+
+Pandas
+NumPy
+Regex
+NLP for skill extraction
+
+Database
+
+PostgreSQL
+
+Automation
+
+Cron initially
+Later Apache Airflow or Prefect
+
+Dashboard
+
+Power BI
+
+Optional
+
+Redis
+Docker
+FastAPI
+Elasticsearch
+GitHub Actions

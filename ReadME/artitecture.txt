@@ -1,0 +1,35 @@
+ARTITECTURE
+                JOB SOURCES
+                    │
+        ┌───────────┼────────────┐
+        ▼           ▼            ▼
+     LinkedIn    Indeed       Naukri
+        │           │            │
+        └───────────┼────────────┘
+                    ▼
+             WEB CRAWLERS
+          Python + Playwright
+                    │
+                    ▼
+             RAW JOB DATA
+                    │
+                    ▼
+             DATA CLEANING
+          Python / Pandas
+                    │
+                    ▼
+             DEDUPLICATION
+                    │
+                    ▼
+             PostgreSQL
+                    │
+             ┌──────┴──────┐
+             ▼             ▼
+       Job Analytics    Skill Analysis
+             │             │
+             └──────┬──────┘
+                    ▼
+                 POWER BI
+                    │
+                    ▼
+             JOB MARKET DASHBOARD

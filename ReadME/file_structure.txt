@@ -1,0 +1,32 @@
+FILE STRUCTURE
+job-market-intelligence/
+│
+├── crawler/
+│   ├── sources/
+│   ├── parsers/
+│   └── scheduler/
+│
+├── pipeline/
+│   ├── cleaner.py
+│   ├── deduplicator.py
+│   ├── skill_extractor.py
+│   └── transformer.py
+│
+├── database/
+│   ├── schema.sql
+│   └── migrations/
+│
+├── analytics/
+│   ├── skill_demand.py
+│   ├── salary_analysis.py
+│   └── trend_analysis.py
+│
+├── api/
+│   └── main.py
+│
+├── powerbi/
+│   └── JobMarket.pbix
+│
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
